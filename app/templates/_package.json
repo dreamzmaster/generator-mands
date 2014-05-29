@@ -1,5 +1,14 @@
 {
-  "name": "package",
+  "name": "<%= _.slugify(appName) %>",
+  "repository": "https://github.com/alexbowen/<%= _.slugify(appName) %>",
   "version": "0.0.0",
-  "dependencies": {}
+  "devDependencies": {
+  	"grunt": "~0.4.1",
+    "grunt-autoprefixer": "~0.4.0",
+    "grunt-karma": "^0.8.3",
+    "karma": "^0.12.14",
+    "karma-ng-html2js-preprocessor": "^0.1.0",
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.3"
+  }
 }
